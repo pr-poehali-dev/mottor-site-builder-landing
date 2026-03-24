@@ -219,21 +219,21 @@ const HeroSection = () => (
       <div className="grid lg:grid-cols-2 gap-12 items-center">
         <div className="space-y-8">
           <div className="inline-flex items-center gap-2 glass rounded-full px-4 py-2 text-sm">
-            <span className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-            <span className="text-white/70">Уже 50 000+ сайтов создано</span>
+            <Icon name="Sparkles" size={14} className="text-purple-400" />
+            <span className="text-white/70">Powered by AI — создано 50 000+ сайтов</span>
           </div>
 
           <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold leading-[1.1] tracking-tight">
-            Создай сайт
+            Опиши идею —
             <br />
-            <span className="gradient-text">без единой</span>
+            <span className="gradient-text">ИИ создаст</span>
             <br />
-            строчки кода
+            сайт за тебя
           </h1>
 
           <p className="text-lg md:text-xl text-white/50 max-w-lg leading-relaxed">
-            Визуальный редактор с перетаскиванием блоков.
-            Просто выбери шаблон, настрой под себя и&nbsp;опубликуй за 5 минут.
+            Просто расскажи, какой сайт тебе нужен — искусственный интеллект
+            сгенерирует дизайн, тексты и&nbsp;структуру. Готовый сайт за&nbsp;минуты, без кода и&nbsp;дизайнера.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4">
